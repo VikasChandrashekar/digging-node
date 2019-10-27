@@ -22,3 +22,8 @@ logger.emit('event');
  * addListener
  */
 logger.on('event', listenerFunc);
+
+/**
+ * once 
+ */
+logger.once('event1', doOnceFunction);
