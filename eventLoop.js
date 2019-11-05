@@ -1,3 +1,14 @@
+/**
+ * Event loop Logic:
+ *
+ * When the call stack gets empty:
+ * 
+ * While the queue is not empty:
+ * event = dequeue an event
+ * if there is a callback:
+ *  call the event's callback 
+ */
+
 const fs = require('fs');
 
 //2.

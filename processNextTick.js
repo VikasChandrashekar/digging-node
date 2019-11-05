@@ -1,3 +1,11 @@
+
+/**
+ * process.nextTick()
+ * Not related to event loop
+ * executes after the current operation and 
+ * before event loop begins.
+ */
+
 let bar;
 
 // this has an asynchronous signature, but calls callback synchronously
